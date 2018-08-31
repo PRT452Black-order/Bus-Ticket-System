@@ -1,4 +1,4 @@
 package com.example.admin.bus_ticket_system;
 
-public class Route {
+public class BusTimetable {
 }
