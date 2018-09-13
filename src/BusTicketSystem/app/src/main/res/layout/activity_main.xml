@@ -2,8 +2,8 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     tools:context=".MainActivity"
     android:descendantFocusability="beforeDescendants"
     android:focusableInTouchMode="true">
@@ -12,57 +12,66 @@
         android:id="@+id/route2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="236dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="8dp"
         android:text="Route 2"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/route3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="8dp"
         android:text="Route 3"
-        app:layout_constraintEnd_toEndOf="@+id/route2"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/route2" />
 
     <Button
         android:id="@+id/route9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="148dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="8dp"
         android:text="Route 9"
-        app:layout_constraintStart_toStartOf="@+id/route3"
-        app:layout_constraintTop_toBottomOf="@+id/route3" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/route4" />
 
     <Button
         android:id="@+id/route12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="8dp"
         android:text="Route 12"
-        app:layout_constraintStart_toStartOf="@+id/route9"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/route9" />
 
     <Button
         android:id="@+id/route4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="65dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="8dp"
         android:text="Route 4"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/route12"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/route3" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="240dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="124dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="8dp"
         android:text="Select Route"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-        app:layout_constraintBottom_toTopOf="@+id/route4"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/searchRoutes" />
 
@@ -70,12 +79,11 @@
         android:id="@+id/searchRoutes"
         android:layout_width="225dp"
         android:layout_height="0dp"
-        android:layout_marginBottom="29dp"
-        android:layout_marginTop="102dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="128dp"
         android:iconifiedByDefault="false"
         android:queryHint="@android:string/search_go"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -97,13 +105,13 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
         android:layout_marginLeft="95dp"
         android:layout_marginStart="95dp"
+        android:layout_marginTop="32dp"
         android:text="Bus IT"
         android:textSize="50sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
         app:layout_constraintEnd_toStartOf="@+id/imageView5"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
