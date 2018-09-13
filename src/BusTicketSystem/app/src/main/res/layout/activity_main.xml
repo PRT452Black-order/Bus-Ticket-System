@@ -89,6 +89,7 @@
         app:layout_constraintStart_toEndOf="@+id/textView2"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/if_ic_directions_bus_48px_352314" />
+        //Bus logo - Google Material Design Icons: https://www.iconfinder.com/icons/352314/bus_directions_icon
 
     <TextView
         android:id="@+id/textView2"

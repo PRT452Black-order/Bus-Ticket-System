@@ -6,7 +6,7 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bus-logo">
+    android:background="@drawable/bus_logo">
 
     <EditText
         android:id="@+id/txtuser"
@@ -46,5 +46,5 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_below="@+id/txtpass"
-        app:srcCompat="@drawable/bus-logo" />
+        app:srcCompat="@drawable/bus_logo" />
 </RelativeLayout>
