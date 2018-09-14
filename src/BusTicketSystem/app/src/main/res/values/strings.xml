@@ -14,5 +14,9 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="time_table">Time Table</string>string>
     <string name="bus_it">Bus IT</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="logo">Logo</string>
 </resources>
