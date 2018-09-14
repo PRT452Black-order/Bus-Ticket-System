@@ -67,7 +67,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/route4CasToDar" />
+        app:srcCompat="@drawable/timetablecastodarwin" />
 
     <Button
         android:id="@+id/button2"
