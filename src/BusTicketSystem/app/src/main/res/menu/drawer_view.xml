@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android" >
-        <item
-            android:id="@+id/nav_account"
-            android:title="My Account" />
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <!--<item-->
+            <!--android:id="@+id/nav_account"-->
+            <!--android:title="My Account" />-->
         <item
             android:id="@+id/nav_topup"
             android:title="Top Up Balance" />
-        <item
-            android:id="@+id/nav_logout"
-            android:title="Logout"/>
+
+
+        <item android:id="@+id/nav_account"
+            android:icon="@mipmap/ic_person_black_24dp"
+            android:title="My Account" />
+
+        <item android:id="@+id/nav_setting"
+            android:icon="@mipmap/ic_settings_black_24dp"
+            android:title="Setting" />
+
+        <item android:id="@+id/nav_logout"
+            android:title="Logout" />
+
 </menu>

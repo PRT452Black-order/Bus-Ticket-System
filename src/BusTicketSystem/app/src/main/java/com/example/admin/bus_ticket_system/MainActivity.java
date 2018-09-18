@@ -9,7 +9,6 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-
     Button buttonRoute2;
     Button buttonRoute3;
     Button buttonRoute4;
