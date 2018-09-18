@@ -31,7 +31,8 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:label="@string/title_activity_routes">
+            android:label="@string/title_activity_routes"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar">
         </activity>
         <activity
             android:name=".MapsActivity"
