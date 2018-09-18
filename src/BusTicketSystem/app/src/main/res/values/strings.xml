@@ -20,5 +20,5 @@
     <string name="next">Next</string>
     <string name="logo">Logo</string>
     <string name="title_activity_home">BUS TICKET SYSTEM</string>
-    <string name="title_activity_main">Route Select</string>
+    <string name="title_activity_routes">Route Select</string>
 </resources>
