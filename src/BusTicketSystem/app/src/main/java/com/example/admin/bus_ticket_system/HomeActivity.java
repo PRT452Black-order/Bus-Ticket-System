@@ -39,7 +39,7 @@ public class HomeActivity extends AppCompatActivity {
 
                 // Start NewActivity.class
                 Intent myIntent = new Intent(HomeActivity.this,
-                        MainActivity.class);
+                        RoutePlanner.class);
                 startActivity(myIntent);
             }
         });
