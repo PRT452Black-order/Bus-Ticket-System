@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Bus-Ticket-System</string>
+    <string name="app_name">BusIt</string>
     <string name="title_activity_login">Sign in</string>
 
     <!-- Strings related to login -->
@@ -15,10 +15,10 @@
         completions."
     </string>
     <string name="time_table">Time Table</string>string>
-    <string name="bus_it">Bus IT</string>
+    <string name="bus_it">BusIt</string>
     <string name="previous">Previous</string>
     <string name="next">Next</string>
     <string name="logo">Logo</string>
-    <string name="title_activity_home">BUS TICKET SYSTEM</string>
+    <string name="title_activity_home">BusIt</string>
     <string name="title_activity_routes">Route Select</string>
 </resources>
